@@ -1,0 +1,236 @@
+P  JOB   air_quality_monitor                                                    
+P  CODE  00                                                                     
+P  UNITS CUST 0                                                                 
+P  arrayDim   N                                                                 
+P  VER   IPC-D-356A                                                             
+P  IMAGE PRIMARY                                                                
+P  NNAMEM0000 unconnected-(J1-SBU1-PadA8)                                       
+P  NNAMEM0001 unconnected-(J1-SBU2-PadB8)                                       
+P  NNAMEM0002 unconnected-(U1-NC-Pad4)                                          
+P  NNAMEM0003 unconnected-(U2-IO12-Pad14)                                       
+P  NNAMEM0004 unconnected-(U2-IO13-Pad16)                                       
+P  NNAMEM0005 unconnected-(U2-IO14-Pad13)                                       
+P  NNAMEM0006 unconnected-(U2-IO15-Pad23)                                       
+P  NNAMEM0007 unconnected-(U2-IO17-Pad28)                                       
+P  NNAMEM0008 unconnected-(U2-IO18-Pad30)                                       
+P  NNAMEM0009 unconnected-(U2-IO19-Pad31)                                       
+P  NNAMEM000A unconnected-(U2-IO2-Pad24)                                        
+P  NNAMEM000B unconnected-(U2-IO23-Pad37)                                       
+P  NNAMEM000C unconnected-(U2-IO25-Pad10)                                       
+P  NNAMEM000D unconnected-(U2-IO26-Pad11)                                       
+P  NNAMEM000E unconnected-(U2-IO27-Pad12)                                       
+P  NNAMEM000F unconnected-(U2-IO32-Pad8)                                        
+P  NNAMEM000G unconnected-(U2-IO33-Pad9)                                        
+P  NNAMEM000H unconnected-(U2-IO34-Pad6)                                        
+P  NNAMEM000I unconnected-(U2-IO35-Pad7)                                        
+P  NNAMEM000J unconnected-(U2-IO4-Pad26)                                        
+P  NNAMEM000K unconnected-(U2-IO5-Pad29)                                        
+P  NNAMEM000L unconnected-(U2-NC-Pad17)                                         
+P  NNAMEM000M unconnected-(U2-NC-Pad18)                                         
+P  NNAMEM000N unconnected-(U2-NC-Pad19)                                         
+P  NNAMEM000O unconnected-(U2-NC-Pad20)                                         
+P  NNAMEM000P unconnected-(U2-NC-Pad21)                                         
+P  NNAMEM000Q unconnected-(U2-NC-Pad22)                                         
+P  NNAMEM000R unconnected-(U2-NC-Pad32)                                         
+P  NNAMEM000S unconnected-(U2-SENSOR_VN-Pad5)                                   
+P  NNAMEM000T unconnected-(U2-SENSOR_VP-Pad4)                                   
+P  NNAMEM000U unconnected-(U3-NC-Pad7)                                          
+P  NNAMEM000V unconnected-(U3-NC-Pad8)                                          
+P  NNAMEM000W unconnected-(U3-R232-Pad15)                                       
+P  NNAMEM000X unconnected-(U3-~{CTS}-Pad9)                                      
+P  NNAMEM000Y unconnected-(U3-~{DCD}-Pad12)                                     
+P  NNAMEM000Z unconnected-(U3-~{DSR}-Pad10)                                     
+P  NNAMEM0010 unconnected-(U3-~{RI}-Pad11)                                      
+317+3.3V            VIA        MD0118PA00X+024409Y-029528X0236Y0000R000 S3      
+317+3.3V            VIA        MD0118PA00X+022992Y-029528X0236Y0000R000 S3      
+317+3.3V            VIA        MD0118PA00X+027756Y-026969X0236Y0000R000 S3      
+317+3.3V            VIA        MD0118PA00X+029528Y-026181X0236Y0000R000 S3      
+317+3.3V            VIA        MD0118PA00X+028218Y-025128X0236Y0000R000 S3      
+327+3.3V            R6    -1          A01X+028809Y-024577X0404Y0551R000 S2      
+327+3.3V            C3    -1          A01X+016914Y-018110X0463Y0571R180 S2      
+327+3.3V            C6    -1          A01X+022441Y-029498X0463Y0571R090 S2      
+327+3.3V            R4    -1          A01X+028543Y-031693X0472Y0551R000 S2      
+327+3.3V            U1    -5          A01X+018578Y-029257X0522Y0236R270 S2      
+317+3.3V            J2    -1    D0394PA00X+031102Y-026181X0669Y0669R180 S0      
+327+3.3V            C2    -1          A01X+018701Y-028376X0463Y0571R270 S2      
+327+3.3V            R3    -1          A01X+017224Y-027559X0472Y0551R270 S2      
+327+3.3V            R5    -1          A01X+028809Y-023415X0404Y0551R000 S2      
+327+3.3V            C4    -1          A01X+018716Y-018110X0463Y0571R180 S2      
+327+3.3V            U2    -2          A01X+019882Y-018016X0591Y0354R000 S2      
+327+3.3V            U3    -4          A01X+022925Y-028524X0768Y0236R270 S2      
+327+3.3V            U3    -16         A01X+021425Y-026575X0768Y0236R270 S2      
+327+3.3V            R11   -1          A01X+015362Y-019096X0472Y0551R180 S2      
+327/DTR             Q1    -2          A01X+019739Y-025528X0404Y0138R000 S2      
+327/DTR             Q1    -4          A01X+020399Y-025783X0404Y0138R000 S2      
+327/DTR             U3    -13         A01X+022925Y-026575X0768Y0236R270 S2      
+317/EN              VIA        MD0118PA00X+017520Y-019882X0236Y0000R000 S3      
+317/EN              VIA        MD0118PA00X+018504Y-019488X0236Y0000R000 S3      
+327/EN              C5    -1          A01X+015453Y-026575X0463Y0571R090 S2      
+327/EN              RESET1-1          A01X+015453Y-025591X0630Y0551R090 S2      
+327/EN              RESET1-1          A01X+015453Y-022441X0630Y0551R090 S2      
+327/EN              R3    -2          A01X+017224Y-026772X0472Y0551R270 S2      
+327/EN              Q1    -6          A01X+020399Y-025272X0404Y0138R000 S2      
+327/EN              U2    -3          A01X+019882Y-018516X0591Y0354R000 S2      
+317/IO0             VIA        MD0118PA00X+020669Y-026181X0236Y0000R000 S3      
+317/IO0             VIA        MD0118PA00X+021654Y-025197X0236Y0000R000 S3      
+327/IO0             R4    -2          A01X+029331Y-031693X0472Y0551R000 S2      
+327/IO0             BOOT1 -1          A01X+028642Y-030709X0630Y0551R090 S2      
+327/IO0             BOOT1 -1          A01X+028642Y-027559X0630Y0551R090 S2      
+327/IO0             Q1    -3          A01X+019739Y-025783X0404Y0138R000 S2      
+327/IO0             U2    -25         A01X+026772Y-024016X0591Y0354R000 S2      
+317/RTS             VIA        MD0118PA00X+022205Y-026020X0236Y0000R000 S3      
+317/RTS             VIA        MD0118PA00X+021655Y-025529X0236Y0000R000 S3      
+327/RTS             Q1    -1          A01X+019739Y-025272X0404Y0138R000 S2      
+327/RTS             Q1    -5          A01X+020399Y-025528X0404Y0138R000 S2      
+327/RTS             U3    -14         A01X+022425Y-026575X0768Y0236R270 S2      
+317/SCL             VIA        MD0118PA00X+029134Y-021457X0236Y0000R000 S3      
+317/SCL             VIA        MD0118PA00X+028543Y-020866X0236Y0000R000 S3      
+317/SCL             J2    -4    D0394PA00X+031102Y-023181X0669Y0000R180 S0      
+327/SCL             R5    -2          A01X+029528Y-023415X0404Y0551R000 S2      
+327/SCL             U2    -36         A01X+026772Y-018516X0591Y0354R000 S2      
+317/SDA             VIA        MD0118PA00X+027559Y-022244X0236Y0000R000 S3      
+317/SDA             VIA        MD0118PA00X+029331Y-024016X0236Y0000R000 S3      
+327/SDA             R6    -2          A01X+029528Y-024577X0404Y0551R000 S2      
+317/SDA             J2    -2    D0394PA00X+031102Y-025181X0669Y0000R180 S0      
+327/SDA             U2    -33         A01X+026772Y-020016X0591Y0354R000 S2      
+317/UART_RX         VIA        MD0118PA00X+022857Y-027395X0236Y0000R000 S3      
+317/UART_RX         VIA        MD0118PA00X+022835Y-023819X0236Y0000R000 S3      
+327/UART_RX         U2    -35         A01X+026772Y-019016X0591Y0354R000 S2      
+327/UART_RX         U3    -3          A01X+022425Y-028524X0768Y0236R270 S2      
+317/UART_TX         VIA        MD0118PA00X+022441Y-027362X0236Y0000R000 S3      
+317/UART_TX         VIA        MD0118PA00X+023327Y-022343X0236Y0000R000 S3      
+327/UART_TX         U2    -34         A01X+026772Y-019516X0591Y0354R000 S2      
+327/UART_TX         U3    -2          A01X+021925Y-028524X0768Y0236R270 S2      
+317/USB_D+          VIA        MD0118PA00X+023555Y-032283X0236Y0000R000 S3      
+317/USB_D+          VIA        MD0118PA00X+024028Y-032480X0236Y0000R000 S3      
+327/USB_D+          J1    -A6         A01X+023594Y-032970X0118Y0453R000 S2      
+327/USB_D+          J1    -B6         A01X+023988Y-032970X0118Y0453R000 S2      
+327/USB_D+          U3    -5          A01X+023425Y-028524X0768Y0236R270 S2      
+327/USB_D-          J1    -A7         A01X+023791Y-032970X0118Y0453R000 S2      
+327/USB_D-          J1    -B7         A01X+023398Y-032970X0118Y0453R000 S2      
+327/USB_D-          U3    -6          A01X+023925Y-028524X0768Y0236R270 S2      
+317/VBUS            VIA        MD0118PA00X+021260Y-031890X0236Y0000R000 S3      
+317/VBUS            VIA        MD0118PA00X+024618Y-032480X0236Y0000R000 S3      
+327/VBUS            U1    -1          A01X+018578Y-030153X0522Y0236R270 S2      
+327/VBUS            U1    -3          A01X+019326Y-030153X0522Y0236R270 S2      
+327/VBUS            J1    -A4         A01X+022748Y-032970X0236Y0453R000 S2      
+327/VBUS            J1    -A9         A01X+024638Y-032970X0236Y0453R000 S2      
+327/VBUS            J1    -B4         A01X+024638Y-032970X0236Y0453R000 S2      
+327/VBUS            J1    -B9         A01X+022748Y-032970X0236Y0453R000 S2      
+327/VBUS            C1    -2          A01X+018504Y-031073X0463Y0571R270 S2      
+327/VBUS            D1    -1          A01X+020051Y-033947X1378Y0709R180 S2      
+317GND              VIA        MD0118PA00X+016732Y-019291X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+018701Y-026969X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+019882Y-029724X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+021654Y-030315X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+017126Y-021457X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+016732Y-033858X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+028740Y-018504X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+021260Y-034843X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+018307Y-018898X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+016339Y-024213X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+020866Y-028346X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+025197Y-032283X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+031102Y-030709X0236Y0000R000 S3      
+317GND              VIA        MD0118PA00X+016339Y-028150X0236Y0000R000 S3      
+327GND              C3    -2          A01X+016097Y-018110X0463Y0571R180 S2      
+327GND              C5    -2          A01X+015453Y-027392X0463Y0571R090 S2      
+327GND              C6    -2          A01X+022441Y-030315X0463Y0571R090 S2      
+327GND              RESET1-2          A01X+017224Y-025591X0630Y0551R090 S2      
+327GND              RESET1-2          A01X+017224Y-022441X0630Y0551R090 S2      
+327GND              BOOT1 -2          A01X+030413Y-030709X0630Y0551R090 S2      
+327GND              BOOT1 -2          A01X+030413Y-027559X0630Y0551R090 S2      
+327GND              U1    -2          A01X+018952Y-030153X0522Y0236R270 S2      
+327GND              J1    -A1         A01X+022433Y-032970X0236Y0453R000 S2      
+327GND              J1    -A12        A01X+024953Y-032970X0236Y0453R000 S2      
+327GND              J1    -B1         A01X+024953Y-032970X0236Y0453R000 S2      
+327GND              J1    -B12        A01X+022433Y-032970X0236Y0453R000 S2      
+317GND              J1    -SH   D0236PA00X+021992Y-033197X0394Y0827R000 S0      
+317GND              J1    -SH   D0236PA00X+021992Y-034843X0394Y0709R000 S0      
+317GND              J1    -SH   D0236PA00X+025394Y-033197X0394Y0827R000 S0      
+317GND              J1    -SH   D0236PA00X+025394Y-034843X0394Y0709R000 S0      
+317GND              J2    -3    D0394PA00X+031102Y-024181X0669Y0000R180 S0      
+327GND              R2    -2          A01X+025984Y-031496X0472Y0551R000 S2      
+327GND              C2    -2          A01X+018701Y-027559X0463Y0571R270 S2      
+327GND              C1    -1          A01X+018504Y-031890X0463Y0571R270 S2      
+327GND              D1    -2          A01X+018083Y-033947X1378Y0709R180 S2      
+327GND              R1    -2          A01X+021457Y-031299X0472Y0551R180 S2      
+327GND              C4    -2          A01X+017899Y-018110X0463Y0571R180 S2      
+327GND              U2    -1          A01X+019882Y-017516X0591Y0354R000 S2      
+327GND              U2    -15         A01X+021077Y-024508X0591Y0354R270 S2      
+327GND              U2    -38         A01X+026772Y-017516X0591Y0354R000 S2      
+327GND              U2    -39         A01X+022185Y-020004X0354Y0354R000 S2      
+317GND              U2    -39   D0079PA00X+022185Y-020280X0236Y0000R000 S0      
+327GND              U2    -39         A01X+022185Y-020555X0354Y0354R000 S2      
+317GND              U2    -39   D0079PA00X+022185Y-020831X0236Y0000R000 S0      
+327GND              U2    -39         A01X+022185Y-021106X0354Y0354R000 S2      
+317GND              U2    -39   D0079PA00X+022461Y-020004X0236Y0000R000 S0      
+317GND              U2    -39   D0079PA00X+022461Y-020555X0236Y0000R000 S0      
+317GND              U2    -39   D0079PA00X+022461Y-021106X0236Y0000R000 S0      
+327GND              U2    -39         A01X+022736Y-020004X0354Y0354R000 S2      
+317GND              U2    -39   D0079PA00X+022736Y-020280X0236Y0000R000 S0      
+327GND              U2    -39         A01X+022736Y-020555X0354Y0354R000 S2      
+317GND              U2    -39   D0079PA00X+022736Y-020831X0236Y0000R000 S0      
+327GND              U2    -39         A01X+022736Y-021106X0354Y0354R000 S2      
+317GND              U2    -39   D0079PA00X+023012Y-020004X0236Y0000R000 S0      
+317GND              U2    -39   D0079PA00X+023012Y-020555X0236Y0000R000 S0      
+317GND              U2    -39   D0079PA00X+023012Y-021106X0236Y0000R000 S0      
+327GND              U2    -39         A01X+023287Y-020004X0354Y0354R000 S2      
+317GND              U2    -39   D0079PA00X+023287Y-020280X0236Y0000R000 S0      
+327GND              U2    -39         A01X+023287Y-020555X0354Y0354R000 S2      
+317GND              U2    -39   D0079PA00X+023287Y-020831X0236Y0000R000 S0      
+327GND              U2    -39         A01X+023287Y-021106X0354Y0354R000 S2      
+327GND              U3    -1          A01X+021425Y-028524X0768Y0236R270 S2      
+327GND              D2    -1          A01X+029321Y-018514X0453Y0551R000 S2      
+327GND              D3    -1          A01X+015354Y-020472X0453Y0551R180 S2      
+327M0000            J1    -A8         A01X+024185Y-032970X0118Y0453R000 S2      
+327M0001            J1    -B8         A01X+023004Y-032970X0118Y0453R000 S2      
+327M0002            U1    -4          A01X+019326Y-029257X0522Y0236R270 S2      
+327M0003            U2    -14         A01X+019882Y-024016X0591Y0354R000 S2      
+327M0004            U2    -16         A01X+021577Y-024508X0591Y0354R270 S2      
+327M0005            U2    -13         A01X+019882Y-023516X0591Y0354R000 S2      
+327M0006            U2    -23         A01X+025077Y-024508X0591Y0354R270 S2      
+327M0007            U2    -28         A01X+026772Y-022516X0591Y0354R000 S2      
+327M0008            U2    -30         A01X+026772Y-021516X0591Y0354R000 S2      
+327M0009            U2    -31         A01X+026772Y-021016X0591Y0354R000 S2      
+327M000A            U2    -24         A01X+025577Y-024508X0591Y0354R270 S2      
+327M000B            U2    -37         A01X+026772Y-018016X0591Y0354R000 S2      
+327M000C            U2    -10         A01X+019882Y-022016X0591Y0354R000 S2      
+327M000D            U2    -11         A01X+019882Y-022516X0591Y0354R000 S2      
+327M000E            U2    -12         A01X+019882Y-023016X0591Y0354R000 S2      
+327M000F            U2    -8          A01X+019882Y-021016X0591Y0354R000 S2      
+327M000G            U2    -9          A01X+019882Y-021516X0591Y0354R000 S2      
+327M000H            U2    -6          A01X+019882Y-020016X0591Y0354R000 S2      
+327M000I            U2    -7          A01X+019882Y-020516X0591Y0354R000 S2      
+327M000J            U2    -26         A01X+026772Y-023516X0591Y0354R000 S2      
+327M000K            U2    -29         A01X+026772Y-022016X0591Y0354R000 S2      
+327M000L            U2    -17         A01X+022077Y-024508X0591Y0354R270 S2      
+327M000M            U2    -18         A01X+022577Y-024508X0591Y0354R270 S2      
+327M000N            U2    -19         A01X+023077Y-024508X0591Y0354R270 S2      
+327M000O            U2    -20         A01X+023577Y-024508X0591Y0354R270 S2      
+327M000P            U2    -21         A01X+024077Y-024508X0591Y0354R270 S2      
+327M000Q            U2    -22         A01X+024577Y-024508X0591Y0354R270 S2      
+327M000R            U2    -32         A01X+026772Y-020516X0591Y0354R000 S2      
+327M000S            U2    -5          A01X+019882Y-019516X0591Y0354R000 S2      
+327M000T            U2    -4          A01X+019882Y-019016X0591Y0354R000 S2      
+327M000U            U3    -7          A01X+024425Y-028524X0768Y0236R270 S2      
+327M000V            U3    -8          A01X+024925Y-028524X0768Y0236R270 S2      
+327M000W            U3    -15         A01X+021925Y-026575X0768Y0236R270 S2      
+327M000X            U3    -9          A01X+024925Y-026575X0768Y0236R270 S2      
+327M000Y            U3    -12         A01X+023425Y-026575X0768Y0236R270 S2      
+327M000Z            U3    -10         A01X+024425Y-026575X0768Y0236R270 S2      
+327M0010            U3    -11         A01X+023925Y-026575X0768Y0236R270 S2      
+317N/C              VIA        MD0118PA00X+026378Y-026772X0236Y0000R000 S3      
+367N/C              J1         MD0256UA00X+022555Y-033394X0256Y0000R000 S0      
+367N/C              J1         MD0256UA00X+024831Y-033394X0256Y0000R000 S0      
+327NET-(D2-A)       R10   -2          A01X+030118Y-019882X0472Y0551R000 S2      
+327NET-(D2-A)       D2    -2          A01X+030128Y-018514X0453Y0551R000 S2      
+327NET-(D3-A)       D3    -2          A01X+014547Y-020472X0453Y0551R180 S2      
+327NET-(D3-A)       R11   -2          A01X+014575Y-019096X0472Y0551R180 S2      
+327NET-(J1-CC1)     J1    -A5         A01X+023201Y-032970X0118Y0453R000 S2      
+327NET-(J1-CC1)     R1    -1          A01X+022244Y-031299X0472Y0551R180 S2      
+327NET-(J1-CC2)     J1    -B5         A01X+024382Y-032970X0118Y0453R000 S2      
+327NET-(J1-CC2)     R2    -1          A01X+025197Y-031496X0472Y0551R000 S2      
+327NET-(U2-IO16)    R10   -1          A01X+029331Y-019882X0472Y0551R000 S2      
+327NET-(U2-IO16)    U2    -27         A01X+026772Y-023016X0591Y0354R000 S2      
+999                                                                             
