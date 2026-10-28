@@ -8,7 +8,21 @@ The goal of this project is to build a compact device for monitoring room temper
 
 The PCB integrates the main controller, sensor interface, USB programming circuitry, and power regulation into a single board.
 
-### Hardware
+
+## PCB Design
+
+
+### 3D View
+
+<img src="docs/pcb-3d.png" width="500" alt="3D render of the PCB">
+
+### PCB Layout
+
+<img src="docs/pcb-layout.png" width="500" alt="PCB layout">
+
+
+
+## Hardware
 
 * **MCU:** ESP32-WROOM-32E-N4
 * **Sensor:** DHT20
@@ -31,8 +45,7 @@ The PCB integrates the main controller, sensor interface, USB programming circui
 | Area                         | Status         |
 | ---------------------------- | -------------- |
 | PCB design                   | Completed      |
-| PCB assembly                 | Ordered        |
-| ESP32 and DHT20 installation | Pending        |
+| PCB assembly                 | Pending        |
 | Firmware                     | In development |
 | Sensor validation            | Pending        |
 
